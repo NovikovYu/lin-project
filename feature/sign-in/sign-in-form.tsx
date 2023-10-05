@@ -144,7 +144,7 @@ const SignInForm = ({
     handleCloseSignInModal();
     handleOpenForgotPasswordModal();
   };
-  
+
   return (
     <SignInFormRestyled>
       <SignInBoxRestyled>

@@ -6,7 +6,7 @@ import {
   PortfolioCardSubtitle,
   PrimaryButtonForPortfolioCard,
 } from './Portfolios-style';
-  
+
 interface IProps {
   id: string;
 }
@@ -15,8 +15,8 @@ const IncompletedPortfolioCardItem: FC<IProps> = ({ id }) => {
   const router = useRouter();
 
   const continueQuestionnaire = () => {
-    router.push(`/survey/${id}`)
-  }
+    router.push(`/survey/${id}`);
+  };
 
   return (
     <PortfolioCardItem>

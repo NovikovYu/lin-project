@@ -25,7 +25,7 @@ export default function StartTheQuestionnaire() {
       }
     } catch (error) {
       console.error('Request error:', error);
-    } 
+    }
   };
 
   return (
